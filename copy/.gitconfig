@@ -7,18 +7,6 @@
   editor = vim
 [apply]
   whitespace = fix
-[alias]
-  br = branch
-  ci = commit
-  co = checkout
-  df = diff
-  g = grep -I
-  lg = log -p
-  pp = !"echo 'Pull'; git pull; echo 'Push'; git push"
-  rb = rbranch
-  rv = review
-  st = status
-  ksdiff = difftool -y -t Kaleidoscope
 [branch "master"]
   remote = origin
   merge = refs/heads/master
