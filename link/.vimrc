@@ -1,6 +1,8 @@
 " Change mapleader
 let mapleader=","
 
+set encoding=utf-8
+
 " Move more naturally up/down when wrapping is enabled.
 nnoremap j gj
 nnoremap k gk
@@ -27,9 +29,7 @@ augroup color_scheme
   autocmd ColorScheme * :hi link multiple_cursors_visual Visual
 augroup END
 
-let g:molokai_italic=0
-colorscheme molokai
-set background=dark
+set background=light
 
 " Visual settings
 set cursorline " Highlight current line
@@ -37,7 +37,6 @@ set number " Enable line numbers.
 set showtabline=2 " Always show tab bar.
 set relativenumber " Use relative line numbers. Current line is still in status bar.
 set title " Show the filename in the window titlebar.
-set nowrap " Do not wrap lines.
 set noshowmode " Don't show the current mode (airline.vim takes care of us)
 set laststatus=2 " Always show status line
 
@@ -59,11 +58,7 @@ set sidescrolloff=3 " Start scrolling three columns before vertical border of wi
 
 " Indentation
 set autoindent " Copy indent from last line when starting new line.
-set shiftwidth=2 " The # of spaces for indenting.
 set smarttab " At start of line, <Tab> inserts shiftwidth spaces, <Bs> deletes shiftwidth spaces.
-set softtabstop=2 " Tab key results in 2 spaces
-set tabstop=2 " Tabs indent only 2 spaces
-set expandtab " Expand tabs to spaces
 
 " Reformatting
 set nojoinspaces " Only insert single space after a '.', '?' and '!' with a join command.
