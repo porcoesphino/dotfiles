@@ -1,3 +1,17 @@
+# Notes
+
+This was stolen from:
+[[ https://github.com/cowboy/dotfiles ]]
+
+Things I didn't like were mostly replaced with thingd from:
+[[ https://github.com/mathiasbynens/dotfiles ]]
+
+Eventually some of this should be used:
+[[ http://lapwinglabs.com/blog/hacker-guide-to-setting-up-your-mac ]]
+
+This is cool:
+[[ https://github.com/lra/mackup ]]
+
 # Dotfiles
 
 My OSX / Ubuntu dotfiles.
